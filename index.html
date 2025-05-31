@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI GameBuilder - Create PS5-Quality Games in Minutes!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%);
+        }
+        .game-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .platform-icon {
+            filter: grayscale(100%);
+            transition: all 0.3s ease;
+        }
+        .platform-icon:hover {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Announcement Bar -->
+    <div class="bg-yellow-500 text-black text-center py-2 px-4 font-bold">
+        <span class="mr-2">🚀 LIMITED TIME OFFER:</span> Get AI GameBuilder at 50% OFF + Exclusive Bonuses!
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                    Create <span class="text-yellow-400">PS5-Quality Games</span> in Minutes With AI
+                </h1>
+                <p class="text-xl mb-8 opacity-90">
+                    The world's first AI that builds addictive, ultra-realistic games like Fortnite & GTA5 — 100% hands-free!
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                    <a href="https://warriorplus.com/o2/a/r47t20r/0" class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-lg text-center pulse-animation">
+                        <i class="fas fa-rocket mr-2"></i> Get Instant Access Now
+                    </a>
+                    <a href="#demo" class="bg-white hover:bg-gray-100 text-blue-800 font-bold py-4 px-8 rounded-lg text-lg text-center">
+                        <i class="fas fa-play-circle mr-2"></i> Watch Demo
+                    </a>
+                </div>
+                <div class="flex items-center">
+                    <div class="flex -space-x-2">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" class="w-10 h-10 rounded-full border-2 border-white">
+                    </div>
+                    <div class="ml-4">
+                        <p class="font-semibold">Join 12,537+ Game Creators</p>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="text-white ml-2">4.9/5 (2,183 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="AI GameBuilder Interface" class="rounded-xl shadow-2xl border-4 border-white w-full max-w-lg">
+                    <div class="absolute -bottom-5 -right-5 bg-white text-blue-800 font-bold py-2 px-4 rounded-lg shadow-lg">
+                        <i class="fas fa-gamepad mr-2"></i> Live Demo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-8 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-gray-600 mb-6">Trusted by game developers worldwide</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PlayStation_logo.svg/2560px-PlayStation_logo.svg.png" class="h-8 opacity-70">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/1200px-Xbox_one_logo.svg.png" class="h-8 opacity-70">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1764px-Epic_Games_logo.svg.png" class="h-8 opacity-70">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Nintendo_Switch_Logo_%28without_Text%29.svg/2048px-Nintendo_Switch_Logo_%28without_Text%29.svg.png" class="h-8 opacity-70">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" class="h-8 opacity-70">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">How AI GameBuilder Works</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Turn your ideas into playable games with just a few clicks - no coding or design skills needed!</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl game-card">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">1. Describe Your Game</h3>
+                    <p class="text-gray-600">Simply type what kind of game you want (e.g., "open-world racing game with zombies") and our AI understands your vision.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl game-card">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-robot text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">2. AI Builds Everything</h3>
+                    <p class="text-gray-600">Our AI generates stunning 3D worlds, characters, gameplay mechanics, and even sound effects - all automatically.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl game-card">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-money-bill-wave text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">3. Publish & Profit</h3>
+                    <p class="text-gray-600">With one click, publish to PlayStation, Xbox, Epic Games and more. Earn money every time someone plays your game!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Video Section -->
+    <section id="demo" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">See AI GameBuilder in Action</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Watch how we created a Fortnite-style battle royale game in under 5 minutes</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-black rounded-xl overflow-hidden shadow-2xl">
+                <div class="aspect-w-16 aspect-h-9">
+                    <div class="w-full h-0 pb-[56.25%] relative">
+                        <div class="absolute inset-0 bg-gray-800 flex items-center justify-center">
+                            <button class="bg-red-600 hover:bg-red-700 text-white rounded-full w-20 h-20 flex items-center justify-center">
+                                <i class="fas fa-play text-2xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 bg-white">
+                    <h3 class="text-xl font-bold mb-2">"From Idea to Playable Game in 4 Minutes 37 Seconds"</h3>
+                    <p class="text-gray-600">No coding, no design skills - just pure AI magic!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Showcase -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Games Created With AI GameBuilder</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">These aren't simple mobile games - they're console-quality experiences</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="game-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Game 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Neon Apocalypse</h3>
+                        <p class="text-gray-600 mb-4">Cyberpunk open-world RPG with branching storylines</p>
+                        <div class="flex justify-between items-center">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Xbox</span>
+                            <span class="text-yellow-500 font-bold">$1,327 earned</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Game 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Zombie Outbreak 2089</h3>
+                        <p class="text-gray-600 mb-4">4-player co-op survival FPS with destructible environments</p>
+                        <div class="flex justify-between items-center">
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">PlayStation</span>
+                            <span class="text-yellow-500 font-bold">$2,451 earned</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Game 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Galactic Racers</h3>
+                        <p class="text-gray-600 mb-4">Anti-gravity racing with customizable ships and tracks</p>
+                        <div class="flex justify-between items-center">
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Epic Games</span>
+                            <span class="text-yellow-500 font-bold">$1,843 earned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://warriorplus.com/o2/a/r47t20r/0" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg inline-block">
+                    <i class="fas fa-gamepad mr-2"></i> Start Creating Your Game Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </html>
